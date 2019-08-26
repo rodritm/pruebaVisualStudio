@@ -4,13 +4,28 @@
 #include "pch.h"
 #include <iostream>
 
+int sum(int a, int b) {
+	std::cout <<"Su suma es="<< (a + b);
+	return 1;
+
+}
+
+
 void main()
 {
 	int a;
-	std::cout << "Ingrese un numero:\n";
+	int b;
+	std::cout << "Ingrese dos numeros:\n";
 	std::cin >> a;
-	std::cout << "Su numero es = "+a;
+	std::cin >> b;
+	int c;
+	sum(a, b);
+	
+
+
 }
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
